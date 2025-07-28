@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform - Learn Anywhere, Anytime</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-graduation-cap"></i>
+                <span>EduLearn</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#courses" class="nav-link">Courses</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to EduLearn</h1>
+            <p class="hero-subtitle">Unlock your potential with our comprehensive online courses</p>
+            <a href="#courses" class="btn btn-primary">Explore Courses</a>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <h2 class="section-title">Featured Courses</h2>
+            <div class="course-grid">
+                <!-- Course Card 1 -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="./webdevimage.jpg" alt="Web Development">
+                        <span class="course-badge">Beginner</span>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Web Development Fundamentals</h3>
+                        <p class="course-description">Learn HTML, CSS, and JavaScript from scratch. Build responsive websites and start your web development journey.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 10 hours</span>
+                            <span><i class="fas fa-signal"></i> Beginner</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 0%"></div>
+                            <span class="progress-text">0% Complete</span>
+                        </div>
+                        <a href="courses.html?id=1" class="btn btn-course">Start Course</a>
+                    </div>
+                </div>
+
+                <!-- Course Card 2 -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://via.placeholder.com/350x200/10B981/ffffff?text=Python+Programming" alt="Python Programming">
+                        <span class="course-badge">Intermediate</span>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Python Programming Mastery</h3>
+                        <p class="course-description">Master Python programming with hands-on projects. Learn data structures, algorithms, and real-world applications.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 15 hours</span>
+                            <span><i class="fas fa-signal"></i> Intermediate</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 25%"></div>
+                            <span class="progress-text">25% Complete</span>
+                        </div>
+                        <a href="courses.html?id=2" class="btn btn-course">Continue Course</a>
+                    </div>
+                </div>
+
+                <!-- Course Card 3 -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://via.placeholder.com/350x200/F59E0B/ffffff?text=Data+Science" alt="Data Science">
+                        <span class="course-badge">Advanced</span>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Data Science & Machine Learning</h3>
+                        <p class="course-description">Dive into data science and machine learning. Learn statistics, data analysis, and build predictive models.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 20 hours</span>
+                            <span><i class="fas fa-signal"></i> Advanced</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 0%"></div>
+                            <span class="progress-text">0% Complete</span>
+                        </div>
+                        <a href="courses.html?id=3" class="btn btn-course">Start Course</a>
+                    </div>
+                </div>
+
+                <!-- Course Card 4 -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://via.placeholder.com/350x200/EC4899/ffffff?text=UI+UX+Design" alt="UI/UX Design">
+                        <span class="course-badge">Intermediate</span>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">UI/UX Design Principles</h3>
+                        <p class="course-description">Create stunning user interfaces and experiences. Learn design thinking, prototyping, and industry tools.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 12 hours</span>
+                            <span><i class="fas fa-signal"></i> Intermediate</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 60%"></div>
+                            <span class="progress-text">60% Complete</span>
+                        </div>
+                        <a href="courses.html?id=4" class="btn btn-course">Continue Course</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 EduLearn. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
